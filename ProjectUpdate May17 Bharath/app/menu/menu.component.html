@@ -1,0 +1,10 @@
+<p>menu works!</p>
+<a [routerLink]="['/menu',{outlets: {'data': ['employ']}}]"> Employ</a> 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a [routerLink]="['/menu',{outlets: {'data': ['login']}}]"> Login</a> 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a [routerLink]="['/menu',{outlets: {'data': ['employreactive']}}]"> Employ Reactive</a> 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a [routerLink]="['/menu',{outlets: {'data': ['loginreactive']}}]">Login Reactive </a> 
+<hr/>
+<router-outlet name="data"></router-outlet>
